@@ -2,11 +2,15 @@ body {
   font-family: Roboto;
 }
 
-.header, .hero {
+.header, .hero, .footer {
   display: flex;
-  /* margin: 48px; */
+  padding: 48px;
   background-color: #1f2937;
   color: #f9faf8;
+}
+
+.header {
+  justify-content: space-between;
 }
 
 .logo {
@@ -23,6 +27,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 a {
@@ -36,4 +41,31 @@ a {
 
 button {
   background-color: #3882f6;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 48px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  color: #1f2937;
+}
+
+.call-to-action {
+  background-color: #3882f6;
+  margin: 48px 200px;
+  padding: 24px;
+}
+
+.footer {
+  justify-content: center;
 }
