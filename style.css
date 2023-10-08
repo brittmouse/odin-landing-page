@@ -2,13 +2,38 @@ body {
   font-family: Roboto;
 }
 
-.header {
+.header, .hero {
   display: flex;
-  justify-content: space-between;
   /* margin: 48px; */
+  background-color: #1f2937;
+  color: #f9faf8;
 }
 
 .logo {
   font-size: 24px;
+  font-weight: 700;
+}
+
+a, .subtext {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.awesome {
+  font-size: 48px;
   font-weight: 900;
+}
+
+button {
+  background-color: #3882f6;
 }
