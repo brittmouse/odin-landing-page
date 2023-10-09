@@ -10,7 +10,8 @@ body {
 }
 
 .header {
-  justify-content: space-between;
+  justify-content: center;
+  gap: 770px;
 }
 
 .logo {
@@ -35,6 +36,12 @@ a {
   padding: 12px;
 }
 
+.hero {
+  display: flex;
+  justify-content: center;
+  gap: 360px;
+}
+
 .text {
   width: 450px;
 }
@@ -42,6 +49,12 @@ a {
 .awesome {
   font-size: 48px;
   font-weight: 900;
+}
+
+img {
+  width: 540px;
+  height: auto;
+  align-items: center;
 }
 
 button {
@@ -68,10 +81,14 @@ button {
 
 .boxes, .secondary {
   display: flex;
-  justify-content: space-between;
-  margin: 0 420px;
+  justify-content: center;
+  gap: 24px;
   padding: 24px 0;
   text-align: center;
+}
+
+.secondary {
+  gap: 32px;
 }
 
 .box {
@@ -97,6 +114,7 @@ button {
 }
 
 .quote-person {
+  padding-top: 24px;
   font-size: 24px;
   font-weight: 700;
   text-align: right;
@@ -104,9 +122,19 @@ button {
 
 .call-to-action {
   background-color: #3882f6;
-  margin: 48px 200px;
+  margin: 48px 480px;
   padding: 24px;
   color: #f9faf8;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.call-header {
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .signup {
