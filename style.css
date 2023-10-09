@@ -32,6 +32,7 @@ ul {
 
 a {
   text-decoration: none;
+  padding: 12px;
 }
 
 .text {
@@ -93,6 +94,12 @@ button {
   font-size: 36px;
   font-weight: 300;
   color: #1f2937;
+}
+
+.quote-person {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
 }
 
 .call-to-action {
