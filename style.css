@@ -1,6 +1,7 @@
 body {
   font-family: Roboto;
   font-size: 18px;
+  margin: 0;
 }
 
 .header, .hero, .footer {
@@ -154,5 +155,6 @@ button {
 }
 
 .attribution {
+  text-align: center;
   padding: 0;
 }
